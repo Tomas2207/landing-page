@@ -2,6 +2,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .header {
   display: flex;
@@ -150,9 +151,10 @@ body .call-action {
   padding: 30px 100px;
   border-radius: 10px;
   align-items: center;
-  justify-content: center;
-  gap: 200px;
+  justify-content: space-between;
+  align-content: space-between;
   margin: 100px;
+  flex-wrap: wrap;
 }
 
 #action-title {
@@ -168,8 +170,20 @@ body .call-action {
   color: #e5e7eb;
   font-weight: bolder;
   padding: 10px 25px;
+  margin-left: 200px;
+  align-self: flex-end;
 }
 
 .action-left p {
   margin: 0;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1f2937;
+  padding: 50px;
+  text-align: center;
+  color: #e5e7eb;
+  margin-top: 50px;
 }
