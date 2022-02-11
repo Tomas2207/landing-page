@@ -138,3 +138,38 @@ a {
   font-weight: bolder;
   margin-left: 500px;
 }
+
+/* Call to action */
+
+body .call-action {
+  background-color: #3882f6;
+  align-self: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  padding: 30px 100px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  margin: 100px;
+}
+
+#action-title {
+  color: #e5e7eb;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.call-action .sign-up {
+  background: #3882f6;
+  border: 2px solid#e5e7eb;
+  border-radius: 10px;
+  color: #e5e7eb;
+  font-weight: bolder;
+  padding: 10px 25px;
+}
+
+.action-left p {
+  margin: 0;
+}
