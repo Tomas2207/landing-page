@@ -107,4 +107,34 @@ a {
 
 .text {
   text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Quote */
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937d0;
+  margin: 50px 0;
+  padding: 50px 0;
+}
+
+.quote {
+  max-width: 700px;
+}
+
+.quote p {
+  font-weight: lighter;
+}
+
+.quote-container .said-it {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-left: 500px;
 }
