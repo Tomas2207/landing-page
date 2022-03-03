@@ -39,6 +39,10 @@ a {
   color: #e5e7eb;
 }
 
+.sign-up a {
+  padding: 10px 25px;
+}
+
 .main-header {
   display: flex;
   align-items: center;
@@ -71,7 +75,7 @@ a {
   color: #e5e7eb;
   border-radius: 25px;
   border: none;
-  padding: 10px 25px;
+  padding: 0px px;
 }
 
 /* Info section */
@@ -104,6 +108,10 @@ a {
   padding: 50px;
   margin-bottom: 15px;
   border-radius: 25px;
+}
+
+.info img:hover {
+  transform: scale(1.1);
 }
 
 .text {
@@ -169,7 +177,7 @@ body .call-action {
   border-radius: 10px;
   color: #e5e7eb;
   font-weight: bolder;
-  padding: 10px 25px;
+  padding: 10px 5px;
   margin-left: 200px;
   align-self: flex-end;
 }
@@ -186,4 +194,15 @@ body .call-action {
   text-align: center;
   color: #e5e7eb;
   margin-top: 50px;
+}
+
+/* extra */
+
+.sign-up:hover {
+  background-color: white;
+  color: black;
+}
+
+a:hover {
+  color: inherit;
 }
